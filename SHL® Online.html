@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://assess.shlonline.com/default?actionfrm=detail -->
+<html lang="en_US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>SHL® Online</title>
+	<meta http-equiv="Expires" content="Mon, 06 Jan 1990 00:00:01 GMT">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1">
+	<meta name="robots" content="noindex">
+	<link rel="SHORTCUT ICON" href="https://assess.shlonline.com/brands/previsor/img/favicon.ico" type="image/x-icon">
+	<script type="text/javascript">if (top != self) top.location=location</script>
+
+
+
+
+<script type="text/javascript">
+
+var i18n = {
+
+	HT_REMOVE : "Remove",
+	TEST_NAME : "Test Name",
+	TEST_TYPE : "Test Type",
+	UNITS : "Units",
+	SELECT : "Select",
+	TESTS_IN_BATTERY : "Tests in Test Battery: ",
+	TOTAL_UNITS : "Total Units:",
+	SELECT_OPTION_LISTBOX : "You must select at least one option from the list box",
+	SELECT_OPTION_LISTBOX2 : "You must have at least one option in the list box",
+	RADIO_BUTTON_GROUP : "The radio button group",
+	REQUIRES_SELECTION : "requires a selection.",
+	CHECKBOX_ERROR1 : "Of the following checkboxes, a maximum of",
+	CHECKBOX_ERROR2 : "may be selected:\n",
+	CHECKBOX_ERROR_MIN1 : "Of the following checkboxes, a minimum of",
+	CHECKBOX_ERROR_MIN2 : "must be selected:\n",
+	SELECT_ELEMENT : "You must check the",
+	SELECT_ELEMENT2 : "box in order to proceed.",
+	FILE_PATH_MSG : "You must enter a valid file path for the",
+	FILE_PATH_MSG2 : "field.",
+	NOT_SELECT_MAX  : "You may not select more than",
+	NOT_SELECT_MAX2  : "options in the list box",
+	MUST_SELECT_OPTIONS  : "You must select",
+	MUST_SELECT_OPTIONS2  : "or more options in the list box",
+	PLEASE_CHOOSE_ONE  : "Please choose one",
+	OPTION_DROP_DOWN  : "An option from the drop-down box",
+	OPTION_DROP_DOWN2  : "must be selected.",
+	AZ_VALID  : "The value",
+	AZ_VALID2  : "may not contain a non-alphabetical\ncharacter, nor may it contain whitespace characters. Only\na-z or A-Z are valid.",
+	AZ_SPACE_VALID  : "The value",
+	AZ_SPACE_VALID2  : "may not contain a non-alphabetical\ncharacter. Only a-z, A-Z or space characters are valid.",
+	AZaz_NUM_VALID  : "The value",
+	AZaz_NUM_VALID2  : "may not contain a non-alphanumeric\ncharacter. Only a-z,A-Z, 0-9 or space characters are valid.",
+	VALID_NUM1  : "The value",
+	VALID_NUM2  : "must be a valid number.",
+	AZaz_VALID  : "The value",
+	AZaz_VALID2  : "may not contain a non-alphanumeric\ncharacter, nor may it contain whitespace characters. Only\na-z,A-Z or 0-9 are valid.",
+	NOT_CONTAIN  : "The value",
+	NOT_CONTAIN2  : "may not contain any of the following characters:\n",
+	FLOAT_MSG : "The value of",
+	FLOAT_MSG2 : "must be a valid floating-point number.",
+	MUST_MATCH : "The value",
+	MUST_MATCH2 : "and",
+	MUST_MATCH3 : "must match",
+	THE_VALUE : "The value",
+	THE_VALUE_OF : "The value of",
+	DIFFER1 : "and",
+	DIFFER2 : "must differ.",
+	FV_NUMBER_GREATER : "must be a number greater than or equal to",
+	FV_MATCH_FORMAT : "must match the following format:",
+	FV_ERRMSG : "Please correct the following errors:\n\n",
+	FV_ONE_VALUE : "must contain at least one value.",
+	FV_CONTAIN_VALUE : "At least one of the following fields must contain a value: ",
+	FV_MUST_CONTAIN_VAL: "must contain a value.",
+	FV_LESS_THAN: "must be less than",
+	FV_GREATER_THAN_EQUAL: "must be greater than or equal to",
+	FV_GREATER_THAN: "must be greater than",
+	FV_LESS_THAN_EQUAL: "must be a number less than or equal to",
+	FV_BE_NUMBER: "must be a number.",
+	FV_MUST_CONTAIN: "must contain at least one\ninstance each of the following characters:\n",
+	FV_MUST_ENTER: "You must enter",
+	FV_MUST_ENTER2: "characters in",
+	FV_MUST_BE_ATLEAST: "must be at least",
+	FV_MUST_BE_ATLEAST2: "characters.",
+	FV_NOT_LONGER: "may not be longer than",
+	FV_NOT_LONGER2: "characters.",
+	FV_MUST_BE_WHOLE: "must be a whole number.",
+	FV_THE : "The",
+	FV_FIELD : "field",
+	HT_ADD_TEAM : "Please select a team to add.",
+	HT_NOT_FOUND1 : "Hiring Team",
+	HT_NOT_FOUND2 : "not found",
+	OPT_BLANK_WARNING : "You must enter at least one character in the field to add an item.",
+	OPT_CHARACTER_WARNING : "The value may not contain asterisks, tildes or greater-than/less-than symbols.",
+	OPT_DUPLICATE_WARNING : "An option with this value already exists.",
+	OPT_NO_MATCH : "No match was found.",
+	OPT_SELECT_OPTION : "Select one option from the list to set as default.",
+	OPT_RENAME_HTML : "You must specify a value in the 'Rename' input box, and it may not contain HTML tags.",
+	OPT_RENAME_ONE : "One, and only one option in the select box may be selected when renaming an option.",
+	SL_SELECT_ONE_ONLY : "Please select one and only one option to rename.",
+	SL_SELECT_ONE_ONLY2 : "Please select one and only one default option.",
+	SL_LIBRARY_REMOVE : "This library cannot be removed from the sitting. To remove the sitting, click the X in the icon on the Sittings bar above.",
+	GTS_ONE_LIB_SITTING : "Only one Library is allowed per Sitting. You must remove the selected library before adding another.",
+	MULTIPLE_SOLUTION_ALERT : "You may only have one Solution or Test Battery in your Session.",
+	LOGIN_CANDIDATE : "Are you sure you want to logout as a user and login as a candidate?",
+	CT_CLEARED  : "Default values will be cleared...continue?",
+	CT_MOVE  : "-  Move at least one option to the Selected column.",
+	CT_SELECT_ONE  : "Please select one, and only one option from the lists.",
+	CT_CODE_VALUE  : "The Code Value cannot begin with an asterisk (*).",
+	CT_BLANK_CODE  : "Are you sure to add blank code?",
+	INV_NUM_GREATER  : "Please input a number greater than 0 and less than or equal to 100.",
+	INV_VALID_TO  : "The Valid To date must be after the Valid From date.",
+	INV_VALID_FROM : "The Valid From date must be before the Valid To date.",
+	INV_ADJUST : "The adjustment will result in negative Units Available.",
+	INV_WHOLE_NUM : "Please input a whole number.",
+	INV_POS_NUM : "Please input a positive number",
+	INV_START_END : "Please select a start and end date for the assessment subscription.",
+	KSAO_MAX_NUM : "The maximum number of ksaos allowed in a test session is 50.",
+	STDLIB_PASTED : "Your pasted text is too long. It is being truncated to match the character limit of",
+	STDLIB_MOZ : "This version of Mozilla is out-of-date. Please update your browser at www.mozilla.org",
+	TESTTREE_MAX_NUM : "The maximum number of tests allowed in a test session is 50.",
+	SPECIAL_CHARACTERS : "Only the following special characters are allowed: - / \\ ' ( ) : , . #",
+	SPECIAL_CHARACTERS_CANDIDATE : "Only the following special characters are allowed: ' - , . #"
+
+};
+
+
+</script>
+
+
+
+
+
+
+<script language="javaScript">
+
+var DAY_LETTERS = ["Su","M","T","W","Th","F","Sa"];
+var ABBREV_MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+var MONTH_NAMES = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+var I18N_TODAY = "Today: June 12, 2016";
+var I18N_CLOSE = "Close";
+var I18N_CLEAR = "Clear";
+var MONTH_LABEL = "Month:";
+var YEAR_LABEL  = "Year:";
+var I18N_ERROR1 = "Please correct the following errors:\\n\\n   - Select a valid date from the required date field(s)";
+var I18N_ERROR3 = "The following is not a valid date value:\\n";
+var I18N_ERROR4 = "Error:  This date must be on or after";
+var I18N_ERROR5 = "Error:  This date must be on or before";
+var I18N_ERROR6 = "Error:  This date must be after";
+var I18N_ERROR7 = "Error:  This date must be before";
+
+</script>
+
+
+	<script language="javascript" type="text/javascript" src="./SHL® Online_files/standard_lib.js"></script>
+	<script language="javascript" type="text/javascript">
+
+	var LocalizedFormValidationText = {
+
+		ERROR_PROLOGUE : "Please correct the following errors:",
+		TEXT_REQUIRED : "The text field {0} must contain a value." ,
+		OPTION_REQUIRED : "An option from the drop-down box {0} must be selected."
+	};
+
+	
+	var POPUP_DEFEAT_ID = "popUpDefeat";
+	var IS_800_WIDTH = ( window.screen.width <= 800 );
+	var GETPAGEURL = "/brands/previsor";
+	var popDefMessageOneVar = "Your session ID number is";
+	var popdefmessagetwoVar = ". Please write this down.";
+	var popdefmessagethreeVar = "We have detected that one or more pop-up blockers may be running on your PC. All pop-up blockers";
+	var popdefmessagefourVar = "must be disabled before continuing with your session.";
+	var popdefmessagefiveVar = "Click";
+	var popdefmessagesixVar = "here";
+	var popdefmessagesevenVar = "for instructions on disabling most pop-up blockers.";
+	var popdefmessageeightVar = "Click your browser\'s Back button to return to this page.";
+	var popdefmessagenineVar = "Once you have disabled all pop-up blockers, click";
+	var popdefmessagetenVar = "to continue with your session.";
+	var popdefmessageelevenVar = "for customer support.";
+
+	function getPopUpDefeatMessage( szURL, szWindowName, szOptions )
+	{
+		if (szURL == null) alert("getPopUpDefeatMessage: invalid szURL");
+		if (szWindowName == null) szWindowName = "";
+		if (szOptions == null ) szOptions = "";
+		var sessionId = "883405619600620030";
+		return "<div style=\"color:#900;\">"+popDefMessageOneVar+"<span style=\"color:#000;\">"+sessionId+"</span>"+popdefmessagetwoVar+"</div><br />" +
+			"<div style=\"color:#900;\">"+popdefmessagethreeVar+popdefmessagefourVar+"</div><br />"+
+			"<div>"+popdefmessagefiveVar+"<a target=\"_top\" href=\"http://service.shl.com/105662\">"+
+			popdefmessagesixVar+"</a>"+popdefmessagesevenVar+popdefmessageeightVar+"</div><br />"+
+			"<div>"+popdefmessagenineVar+
+			"<a href=\"javascript:var temp = window.open('"+szURL+"', '"+szWindowName+"', '"+szOptions+"');\">"+popdefmessagesixVar+"</a>"+popdefmessagetenVar+"</div><br />"+
+			"<div>"+popdefmessagefiveVar+" <a href=\"http://support.previsor.com/contact\">"+popdefmessagesixVar+"</a>"+popdefmessageelevenVar+"</div>";
+	}
+
+	
+	
+	
+	</script>
+
+
+
+
+
+	<script type="text/javascript" src="./SHL® Online_files/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="./SHL® Online_files/jquery-ui-1.8.22.custom.min.js"></script>
+	<script type="text/javascript" src="./SHL® Online_files/jquery.validate.min.js"></script>
+	<script type="text/javascript">jQuery.noConflict();</script>
+	<!--[if lt IE 9]>
+	<script src="https://assess.shlonline.com/html5shiv/html5shiv.js"></script>
+	<![endif]-->
+
+
+    <script language="Javascript">
+        function onHelp()
+        {
+            window.open('/default?action=help&page=otherhelp/homepage.jsp','Help');
+        }
+    </script>
+	<script type="text/javascript">
+	jQuery(document).ready(function($){
+		$("select[name=lang]").change(function() {
+
+			
+			$("form[name=i18n]").submit();
+
+		});
+
+		window.$globalAlert = $("<div></div>")
+			.html("")
+			.dialog({
+				autoOpen: false,
+				buttons: { "Ok": function() { $(this).dialog("close"); } },
+				modal: true,
+				stack: true,
+				title: "System Notification"
+			});
+
+		if ( false) { $globalAlert.dialog("open"); }
+	});
+	</script>
+
+	
+
+
+
+	<link rel="stylesheet" type="text/css" href="./SHL® Online_files/reset.css">
+	<link rel="stylesheet" type="text/css" href="./SHL® Online_files/960.css">
+	<link rel="stylesheet" href="./SHL® Online_files/jquery-ui-1.8.22.custom.css">
+	<link rel="stylesheet" href="./SHL® Online_files/common.css">
+	<style type="text/css">
+	/* common styles */
+	* {font-family:Verdana,Arial,Helvetica,sans-serif;}
+	a:active {color:#2A6EBB;}
+	a:hover {color:#FFFFFF;}
+	a:link {color:#2A6EBB;}
+	a:visited {color:#2A6EBB;}
+	a.secondary:active {color:#FFFF00;}
+	a.secondary:hover {color:#FFFF00;}
+	a.secondary:link {color:#FFFF00;}
+	a.secondary:visited {color:#FFFF00;}
+	a.reversed:active {color:#FFFFFF;}
+	a.reversed:hover {color:#FFFFFF;}
+	a.reversed:link {color:#FFFFFF;}
+	a.reversed:visited {color:#FFFFFF;}
+	body {background:#e6e7e8; url(/brands/previsor/img/bkggradient.png) repeat-x;color:#1F5273;}
+    h1 {color:#2A6EBB;}
+    h2 {color:#2A6EBB;}
+	h3.color {color:#2A6EBB;}
+	footer.main {background-color:transparent;color:#1F5273;}
+	header.main {color:#FFFFFF;border-left: 1px solid #2A6EBB;border-right: 1px solid #2A6EBB;border-top: 1px solid #2A6EBB;}
+	section.main {border-left: 1px solid #2A6EBB;border-right: 1px solid #2A6EBB;border-bottom: 1px solid #2A6EBB;}
+	section.main {background-color:#FCF9F9;}
+	.main {background-color:#2A6EBB;}
+	/* end common styles */
+
+     /* jquery overrides */
+    .ui-dialog-content {font-size: 11px;}
+    .ui-dialog-buttonset .ui-button-text {font-size: 13px;}
+    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+        filter: progid:DXImageTransform.Microsoft.Gradient(GradientType = 0, StartColorStr = '#4983c5', EndColorStr = '#2A6EBB');
+        background: -moz-linear-gradient(bottom, #2A6EBB, #4983c5 );
+        background: -webkit-gradient(linear, left top, left bottom, from(#4983c5), to(#2A6EBB));
+        background: -ms-linear-gradient(top,  #2A6EBB 0%,#4983c5 50%,#2A6EBB 51%,#2A6EBB 100%); /* IE10+ */
+        border: 1px solid #d3d3d3;
+        font-weight: normal;
+        color: #ffffff;
+    }
+    .ui-state-hover {
+        background: #2A6EBB; /* Old browsers */
+        background: -moz-linear-gradient(top,  #2A6EBB 0%, #1b68c9 50%, #2970c9 51%, #266ec9 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2A6EBB), color-stop(50%,#1b68c9), color-stop(51%,#2970c9), color-stop(100%,#266ec9)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #2A6EBB 0%,#1b68c9 50%,#2970c9 51%,#266ec9 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #2A6EBB 0%,#1b68c9 50%,#2970c9 51%,#266ec9 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #2A6EBB 0%,#1b68c9 50%,#2970c9 51%,#266ec9 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #2A6EBB 0%,#1b68c9 50%,#2970c9 51%,#266ec9 100%); /* W3C */
+        border: 1px solid #999999;
+        font-weight: normal;
+        color: #ffffff;
+    }
+            /* end jquery overrides */
+
+    /* home page styles */
+	table.assessmentTasks caption {background-color:#2A6EBB;}
+	table.assessmentTasks caption div {font-size:13pt; color:#FFFFFF;}
+	table.assessmentTasks caption > div > * {margin:5px 10px;}
+	table.assessmentTasks {width:100%;margin:20px 0;background-color:transparent;}
+	table.assessmentTasks tbody > tr > td:first-child {border-left:0;}
+	table.assessmentTasks tbody > tr > td:last-child {border-right:0;}
+	table.assessmentTasks td, th {padding:10px; font-size:8pt;border:1px solid #FCF9F9;}
+	table.assessmentTasks td.whatYouNeed {background-color:#f0f4e6;}
+	table.assessmentTasks thead > tr > th:first-child {border-left:0;}
+	thead > tr > th:last-child {border-right:0;}
+	table.assessmentTasks td {background-color:#d5f2f6;}
+	table.assessmentTasks tfoot td {background-color:transparent;}
+	table.assessmentTasks tfoot th {font-size:7pt;}
+	table.assessmentTasks th {background-color:#9be0e9;font-weight:bold;}
+	table.assessmentTasks th.testLabel {background-color:#d5f2f6;}
+	table.assessmentTasks th.whatYouNeed, table.assessmentTasks > tfoot th {background-color:#c9d7a7;}
+	table.assessmentTasks details.assessmentTasksDesc {font-size:9pt;margin-top:8px;}
+	.assessmentTasksTitle {margin-left:10px;}
+	/* end home page styles */
+
+	/* test driver styles */
+	caption.testdriver {color:#1F5273;}
+	/* end test driver styles */
+	</style>	
+
+</head>
+<body>
+	<header id="mainHeader" class="container_12 main">
+		<div class="grid_4"><img id="_no_Id" src="./SHL® Online_files/0.png" class="" style="" title="The CEB Talent Measurement Solution" border="0" height="59" width="250" alt="The CEB Talent Measurement Solution"></div>
+		<div class="grid_8 helpContainer">
+			<nav class="help">
+				<ul>
+
+					<li class="langCell">
+						<form name="i18n" action="https://assess.shlonline.com/default" method="post" style="display:inline;">
+                                <input type="hidden" name="actionfrm" value="detail">
+						<!-- #73500 DPN localization issue after registering -->
+						 <input type="hidden" name="appId" value="48540208">
+							<label for="lang"><img id="_no_Id" src="./SHL® Online_files/i18n_globe.png" class="" style="position:relative;bottom:2px;" title="Language" border="0" height="19" width="19" alt="Language"></label>
+																					<select id="lang" name="lang" label="">
+<option lang="en_us" value="en_US">English</option><option lang="zh_CN" value="zh_CN">简体中文</option><option lang="es" value="es">Español (América Latina)</option><option lang="fr_CA" value="fr_CA">Français du Canada</option><option lang="de_DE" value="de_DE">Deutsch</option><option lang="nl" value="nl">Nederlands</option><option lang="fr" value="fr">Français</option><option lang="sv" value="sv">Svenska</option>
+							</select>
+						</form>
+					</li>
+
+					<li><a class="reversed" href="javascript:onHelp();" title="View help on this topic and access other help resources.">Help</a></li> |
+
+
+					<li><a class="reversed" href="http://service.shl.com/s2p-candidates/" target="_blank" title="Contact">Contact</a></li> |
+
+						
+					<li class="logout"><a class="reversed" id="header_logout_link" href="https://assess.shlonline.com/default?action=logout" title="Log Out">Log Out</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="clear"></div>
+	<section aria-label="Content" class="container_12 main">
+		<!-- end header template -->
+<div class="grid_12">
+	<div id="popUpDefeat" class="popUpDefeatDiv"></div>
+<h1 class="majorTitle">Assessment Home: Oran Tene</h1>
+			
+
+
+<script language="javascript1.2">
+var reloginlink;
+jQuery(document).ready(function($) {
+	//assign buttons
+	$("input[name=closeBtn]").button();
+	$("input[name=integrationNextBtn]").button();
+});
+
+function onClose()
+{
+	document.location = '/default?action=goto&page=workbench/modules/testing/home.jsp&back=yes';
+}
+
+</script>
+
+
+                <div style="text-align:right;">
+                    <input type="button" name="closeBtn" onclick="onClose();" value="Close" class="ui-button ui-widget ui-state-default ui-corner-all" role="button" aria-disabled="false">
+                </div>
+    
+<style>
+a.pageTopLink:link {
+	font-size: 11px;
+	color: #7F333A;
+	font-weight: bold;
+}
+
+a.pageTopLink:active {
+	font-size: 11px;
+	color: #9F535A;
+	font-weight: bold;
+}
+
+a.pageTopLink:hover {
+	font-size: 11px;
+	color: #7F333A;
+	font-weight: bold;
+}
+
+a.pageTopLink:visited {
+	font-size: 11px;
+	color: #7f333a;
+	font-weight: bold;
+}
+
+
+td.ratingHeader_graph {border:0;}
+td.ratingHeader_label {background-color:#fff;text-align:center;}
+td.ratingHeader_rawScore {font-size:9px;padding-bottom:2px;padding-left:4px;vertical-align:bottom;width:70px;}
+td.ratingHeader_value {color:#fff;text-align:right;}
+td.ratingScale_graph {border:1px solid #000;}
+td.ratingScale_percentile {padding-bottom:2px;padding-right:4px;text-align:right;vertical-align:bottom;width:60px;}
+td.ratingScale_rawScore {padding-bottom:2px;padding-left:4px;vertical-align:bottom;width:70px;}
+table.ratingScale_master {margin-left: auto; margin-right: 4px; margin-bottom: 4px; }
+table.ratingHeader_master {margin-left: auto; margin-right: 4px; margin-bottom: 4px; }
+
+</style>
+<a name="pageTop"></a>
+<table class="sessionHeaderTable" border="0" cellpadding="0" cellspacing="0" width="100%" rules="none">
+<tbody><tr class="TABLEHEADER">
+<td colspan="5" align="Left" class="SERVICEHEADER">
+ Session: 883405619600620030</td></tr><tr class="servicefield">
+<td width="5%">&nbsp;</td><td align="left" width="45%">Job ID: 2506162</td><td align="left" width="45%">Job Title: Web Developer</td></tr>
+<tr class="servicefield">
+<td width="5%">&nbsp;</td><td colspan="4">Library Name: Job 2506162 Sitting 1415412</td></tr>
+<tr class="servicefield">
+ <td width="5%">&nbsp;</td><td align="left" width="45%">Started: 6/12/16 6:17 PM </td><td align="left" width="45%">Completed: 6/12/16 6:46 PM </td></tr>
+<tr class="servicefield">
+ <td width="5%">&nbsp;</td><td align="left" width="45%">Candidate: <b>Oran Tene</b></td><td align="left" width="45%">Candidate Reference: </td></tr>
+<tr class="servicefield">
+ <td width="5%">&nbsp;</td><td align="left" width="45%">Email: orantene@gmail.com</td><td align="left" width="45%">Phone: 9132300376</td></tr>
+<tr class="servicefield">
+ <td width="5%">&nbsp;</td><td align="left" width="45%">City: Kansas City</td><td align="left" width="45%">State/Province: Missouri</td></tr>
+</tbody></table><table style="border:1px solid black;" border="0" cellpadding="0" cellspacing="0" width="100%" rules="none">
+<tbody><tr class="servicelistheader">
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td colspan="5"> Test: CSS3</td></tr>
+<tr class="servicefield">
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td colspan="5">
+This report is confidential and its contents are intended to assist in the prediction of an applicant's work behavior. If you would like more information about this interpretive report or other products that SHL offers, please contact your account representative.<br><br></td></tr><tr class="servicefield">
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td colspan="5">
+<b>Score: 3.28 </b>
+</td></tr><tr class="servicefield">
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td colspan="5">
+<b>Proficiency Level: <span style="COLOR:blue;">Proficient</span> (2.51 - 3.50)
+</b></td></tr><tr class="servicefield">
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td colspan="5">
+The candidate has mastered the basic concepts of CSS3, including:<dir><li>Selectors</li><li>Typography</li><li>Containers</li></dir>The candidate demonstrates a clear understanding of intermediate CSS3 concepts, such as: <dir><li>Syntax</li><li>Color</li><li>Implementation</li></dir>The candidate may have some knowledge of more advanced CSS3 concepts such as: <dir><li>Layout</li><li>Media</li><li>Transitions and Transforms</li></dir> At the Proficient level, the candidate will be capable of working on most projects involving CSS3 with minimal assistance.  However, the candidate will probably require more assistance with advanced concepts.<br><br></td></tr><tr class="servicefield">
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td colspan="5">
+<b><i>Percentile Comparisons</i></b></td></tr><tr class="servicefield">
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td colspan="5">
+The percentile score indicates how well the candidate scored relative to other candidates in the comparison population indicated by the score.<br><br></td></tr><tr class="servicefield">
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td colspan="5">
+<table border="0" style="border:1px solid #000;" cellpadding="3" cellspacing="0" width="100%"><tbody><tr><td colspan="2" style="border-bottom:1px solid #000;background-color:#888;"><b>Percentile Comparisons</b></td></tr><tr><td>&nbsp;</td><td align="right"><table class="ratingHeader_master" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+	<td class="ratingScale_percentile"><img src="./SHL® Online_files/spacer.gif" height="1" width="60"><br>Percentile</td>
+	<td class="ratingHeader_graph" width="315">
+		<img class="ratingScaleImgSpacer" width="315" height="1" src="./SHL® Online_files/spacer.gif" alt="">		<table class="ratingHeader_sections" border="1" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td align="center" class="ratingHeader_section ratingHeader_label" width="94">Low</td>
+			<td align="center" class="ratingHeader_section ratingHeader_label" width="125">Medium</td>
+			<td align="center" class="ratingHeader_section ratingHeader_label" width="94">High</td>
+		</tr>
+		<tr>
+			<td align="right" class="ratingHeader_section ratingHeader_value" bgcolor="#FF0000" style="color:#000;">30</td>
+			<td align="right" class="ratingHeader_section ratingHeader_value" bgcolor="#FFFF00" style="color:#000;">70</td>
+			<td align="right" class="ratingHeader_section ratingHeader_value" bgcolor="#00CC33" style="color:#000;">100</td>
+		</tr>
+		</tbody></table>
+	</td>
+</tr>
+</tbody></table>
+</td></tr><tr><td>Global Population</td><td align="right"><table class="ratingScale_master" height="16" style="" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+	<td class="ratingScale_percentile">73</td>
+	<td class="ratingScale_graph" style="border:1px solid #000;" align="left" width="315"><div><img class="" width="219" height="1" src="./SHL® Online_files/spacer2.gif" alt=""><img src="./SHL® Online_files/diamond.gif"></div></td>
+</tr>
+</tbody></table>
+</td></tr><tr><td>Company Population</td><td align="right"><table class="ratingScale_master" height="16" style="" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+	<td class="ratingScale_percentile">38</td>
+	<td class="ratingScale_graph" style="border:1px solid #000;" align="left" width="315"><div><img class="" width="114" height="1" src="./SHL® Online_files/spacer2.gif" alt=""><img src="./SHL® Online_files/diamond.gif"></div></td>
+</tr>
+</tbody></table>
+</td></tr></tbody></table><br><br></td></tr><tr class="servicefield">
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td colspan="5">
+<table border="0" style="border:1px solid #000;" cellpadding="3" cellspacing="0" width="100%"><tbody><tr><td colspan="6"><b>Detail Item Results</b></td></tr><tr>
+<td align="center" class="tableheadersmall">Order</td><td align="center" class="tableheadersmall">Question</td><td align="center" class="tableheadersmall">Topic</td><td align="center" class="tableheadersmall">Description</td><td align="center" class="tableheadersmall">Time Taken (Seconds)</td><td align="center" class="tableheadersmall">Is Correct</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">1</td><td class="tablerowsmall">CSS3_BB_0227</td><td class="tablerowsmall">Layout</td><td class="tablerowsmall">Define Layouts</td><td align="center" class="tablerowsmall">83.3</td><td align="center" class="tablerowsmall">No</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">2</td><td class="tablerowsmall">CSS3_BB_0177</td><td class="tablerowsmall">Color</td><td class="tablerowsmall">Transparency</td><td align="center" class="tablerowsmall">87.1</td><td align="center" class="tablerowsmall">Yes</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">3</td><td class="tablerowsmall">CSS3_BB_0201</td><td class="tablerowsmall">Selectors</td><td class="tablerowsmall">Type, Class, and ID</td><td align="center" class="tablerowsmall">135.0</td><td align="center" class="tablerowsmall">Yes</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">4</td><td class="tablerowsmall">CSS3_BB_0014</td><td class="tablerowsmall">Color</td><td class="tablerowsmall">Format</td><td align="center" class="tablerowsmall">82.4</td><td align="center" class="tablerowsmall">No</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">5</td><td class="tablerowsmall">CSS3_BB_0034</td><td class="tablerowsmall">Selectors</td><td class="tablerowsmall">Combinators</td><td align="center" class="tablerowsmall">27.7</td><td align="center" class="tablerowsmall">Yes</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">6</td><td class="tablerowsmall">CSS3_BB_0072</td><td class="tablerowsmall">Typography</td><td class="tablerowsmall">Fonts</td><td align="center" class="tablerowsmall">53.4</td><td align="center" class="tablerowsmall">Yes</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">7</td><td class="tablerowsmall">CSS3_BB_0099</td><td class="tablerowsmall">Containers</td><td class="tablerowsmall">Formatting</td><td align="center" class="tablerowsmall">49.5</td><td align="center" class="tablerowsmall">Yes</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">8</td><td class="tablerowsmall">CSS3_BB_0226</td><td class="tablerowsmall">Layout</td><td class="tablerowsmall">Define Layouts</td><td align="center" class="tablerowsmall">104.5</td><td align="center" class="tablerowsmall">Yes</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">9</td><td class="tablerowsmall">CSS3_BB_0217</td><td class="tablerowsmall">Containers</td><td class="tablerowsmall">Positioning</td><td align="center" class="tablerowsmall">69.1</td><td align="center" class="tablerowsmall">No</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">10</td><td class="tablerowsmall">CSS3_BB_0214</td><td class="tablerowsmall">Containers</td><td class="tablerowsmall">Positioning</td><td align="center" class="tablerowsmall">95.0</td><td align="center" class="tablerowsmall">Yes</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">11</td><td class="tablerowsmall">CSS3_BB_0180</td><td class="tablerowsmall">Implementation</td><td class="tablerowsmall">Browser Support</td><td align="center" class="tablerowsmall">151.1</td><td align="center" class="tablerowsmall">Yes</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">12</td><td class="tablerowsmall">CSS3_BB_0001</td><td class="tablerowsmall">Syntax</td><td class="tablerowsmall">Properties Values and Units</td><td align="center" class="tablerowsmall">78.0</td><td align="center" class="tablerowsmall">Yes</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">13</td><td class="tablerowsmall">CSS3_BB_0124</td><td class="tablerowsmall">Media</td><td class="tablerowsmall">Recognized Types</td><td align="center" class="tablerowsmall">83.4</td><td align="center" class="tablerowsmall">No</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">14</td><td class="tablerowsmall">CSS3_BB_0136</td><td class="tablerowsmall">Layout</td><td class="tablerowsmall">Box Model and Flexible Box Model</td><td align="center" class="tablerowsmall">107.2</td><td align="center" class="tablerowsmall">Yes</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">15</td><td class="tablerowsmall">CSS3_BB_0210</td><td class="tablerowsmall">Transitions and Transforms</td><td class="tablerowsmall">Transitions</td><td align="center" class="tablerowsmall">85.9</td><td align="center" class="tablerowsmall">Yes</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">16</td><td class="tablerowsmall">CSS3_BB_0045</td><td class="tablerowsmall">Selectors</td><td class="tablerowsmall">Pseudo</td><td align="center" class="tablerowsmall">73.2</td><td align="center" class="tablerowsmall">No</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">17</td><td class="tablerowsmall">CSS3_BB_0149</td><td class="tablerowsmall">Syntax</td><td class="tablerowsmall">Properties Values and Units</td><td align="center" class="tablerowsmall">54.5</td><td align="center" class="tablerowsmall">Yes</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">18</td><td class="tablerowsmall">CSS3_BB_0035</td><td class="tablerowsmall">Selectors</td><td class="tablerowsmall">Combinators</td><td align="center" class="tablerowsmall">109.5</td><td align="center" class="tablerowsmall">No</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">19</td><td class="tablerowsmall">CSS3_BB_0165</td><td class="tablerowsmall">Typography</td><td class="tablerowsmall">Formatting</td><td align="center" class="tablerowsmall">24.4</td><td align="center" class="tablerowsmall">Yes</td></tr>
+<tr>
+<td align="center" class="tablerowsmall">20</td><td class="tablerowsmall">CSS3_BB_0185</td><td class="tablerowsmall">Implementation</td><td class="tablerowsmall">Browser Support</td><td align="center" class="tablerowsmall">29.3</td><td align="center" class="tablerowsmall">Yes</td></tr>
+</tbody></table></td></tr><tr class="servicefield">
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td align="left" colspan="3"><b><i>Time Summary: </i><b></b></b></td></tr>
+<tr class="servicefield">
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td align="left" width="35%">Time Taken (mm:ss):&nbsp;</td><td align="left">26:24</td></tr>
+<tr class="servicefield">
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td align="left" width="35%">Started on:&nbsp;</td><td align="left">6/12/16 6:17 PM </td></tr>
+<tr class="servicefield">
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td align="left" width="35%">Completed on:&nbsp;</td><td align="left">6/12/16 6:46 PM </td></tr>
+</tbody></table><div style="font-decoration:underline;font-size:10px;margin:4px;"><a class="pageTopLink" href="https://assess.shlonline.com/default?actionfrm=detail#pageTop">Back to Top</a></div>
+
+
+
+	    
+</div>
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+
+
+		<!-- begin footer template -->
+	</section>
+	<footer class="container_12 main">
+		<div class="grid_12 copyright"><a href="https://assess.shlonline.com/default?actionfrm=detail#" title="DC4-PVM-S2PW-05 - 2.1.1.76">©</a>
+			2001-2016 <a class="footerLink" href="http://www.shl.com/" target="_blank">SHL</a>, a part of CEB.  All rights reserved -
+			<a class="footerLink" target="_blank" href="https://assess.shlonline.com/default?action=goto&amp;page=dpn.jsp&amp;guest=true">Data Protection Notice</a>
+								</div>
+	</footer>
+
+<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-1" style="display: none; z-index: 1000; outline: 0px; position: absolute;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-1">System Notification</span><a href="https://assess.shlonline.com/default?actionfrm=detail#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div class="ui-dialog-content ui-widget-content" style="display: block;"></div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 1000;"></div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Ok</span></button></div></div></div></body></html>

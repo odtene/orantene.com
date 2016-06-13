@@ -1,0 +1,112 @@
+	/*
+*  common.css
+*  Contains all styles which are identical across all templates, and which do not require branding.
+*/
+/* common styles */
+* {font-size:11px;}
+h3 {font-size:16px;font-weight:bold;margin: 0 0 10px 0;}
+h2 {font-size:16px;font-weight:bold;margin: 0 0 10px 0;}
+h1 {font-size:16px;font-weight:bold;margin: 0 0 10px 0;}
+h3.majorTitle {margin: 10px;}
+h2.majorTitle {margin: 10px;}
+h1.majorTitle {margin: 10px;}
+footer.main {font-size:9px;padding: 2px 0 2px 0;}
+nav.help {font-size: 11px; padding: 2px 0 0 0;}
+nav.help ul {list-style-type:none;}
+nav.help li {display:inline;}
+nav.help .langCell {padding:0 8px 0 0;}
+section.main {font-size:12px;padding: 0 0 10px 0;}
+.helpContainer {text-align:right;}
+.main {}
+.centerBlock {margin-left:auto;margin-right:auto;}
+.centered {margin-left:auto; margin-right:auto; display:table;*display:inline;*zoom:1; }
+.centeringContainer {text-align:center;}
+.contentContainer {margin:10px 17px 10px 17px;} /* for wrapping entire content section */
+.loginSection {margin:20px 0 10px 0;}
+#outerVertAlign {height: 100%; width:100%;overflow: hidden; #position: relative;}
+#outerVertAlign[id] {display: table; position:static;}
+#vertAlign {#position: absolute; #top: 50%;}
+#vertAlign[id] {display: table-cell;vertical-align: middle;width: 100%;}
+#innerVertAlign {#position: relative; #top: -50%}
+p { margin-bottom: 1em; }
+blockquote {margin-left: 2em; }
+ol,ul { margin-bottom: 1em; margin-top: 1em; margin-left: 2em; }
+ol {list-style: decimal outside;}
+ul {list-style: disc outside;}
+ul li ul {margin-top: 0; margin-bottom: 0; list-style: circle}
+ol [type="a"]{list-style:  lower-alpha outside none;}
+ol [type="1"]{list-style:  decimal outside none;}
+ol.decimal {list-style: decimal outside none;}
+ol.alpha {list-style: lower-alpha outside none;}
+ol.indent {margin-left: 2em;}
+table[border] { border-collapse: separate; border-spacing: 0; border-style: solid; border-color: #e2e2e2}
+tr, td, th { border-width: inherit; border-style: solid; border-color: #e2e2e2; padding: inherit; vertical-align: inherit; }
+th { font-weight: bolder; text-align: center; font-size: larger; }
+table[border="1"], table[border="1"] tr, table[border="1"] th, table[border="1"] td { border-width: 1px; }
+table[border="2"], table[border="2"] tr, table[border="2"] th, table[border="2"] td { border-width: 2px; }
+table[border="3"], table[border="3"] tr, table[border="3"] th, table[border="3"] td { border-width: 3px; }
+table[border="4"], table[border="4"] tr, table[border="4"] th, table[border="4"] td { border-width: 4px; }
+table[border="5"], table[border="5"] tr, table[border="5"] th, table[border="5"] td { border-width: 5px; }
+/* end common styles */
+
+/* custom instruction/PlatformContent styles */
+#instruction p { margin-bottom: 1em; }/*#instruction: cabTest Instruction tab, "none"*/
+#instruction {padding: 15px;}
+#instruction ol {list-style: decimal inside; list-style-position:outside;}
+#instruction ul {list-style: disc inside; list-style-position:outside;}
+.instructiontemplates ul {list-style: disc inside; margin-bottom: 1em; margin-top: 1em; margin-left: 2em; list-style-position:outside;}
+.instructiontemplates ul li ul {margin-top: 0; margin-bottom: 0; list-style: circle}
+.instructiontemplates table { border-collapse: separate; border-spacing: 0px; border-width: inherit; border-style: outset; border-color: #fff}
+.instructiontemplates p { margin-bottom: 1em; margin-top: 1em}
+.instructiontemplates tr, .instructiontemplates td, .instructiontemplates th { border-width: inherit; border-style: inset; border-color: #e2e2e2; padding: 1px; vertical-align: inherit; }
+.instructiontemplates th { font-weight: bolder; text-align: center; font-size: larger; }
+.instructiontemplates table[border="1"], .instructiontemplates table[border="1"] tr, .instructiontemplates table[border="1"] th, .instructiontemplates table[border="1"] td { border-width: 1px; }
+.instructiontemplates table[border="2"], .instructiontemplates table[border="2"] tr, .instructiontemplates table[border="2"] th, .instructiontemplates table[border="2"] td { border-width: 2px; }
+.instructiontemplates table[border="3"], .instructiontemplates table[border="3"] tr, .instructiontemplates table[border="3"] th, .instructiontemplates table[border="3"] td { border-width: 3px; }
+.instructiontemplates table[border="4"], .instructiontemplates table[border="4"] tr, .instructiontemplates table[border="4"] th, .instructiontemplates table[border="4"] td { border-width: 4px; }
+.instructiontemplates table[border="5"], .instructiontemplates table[border="5"] tr, .instructiontemplates table[border="5"] th, .instructiontemplates table[border="5"] td { border-width: 5px; }
+/*
+.topInstructions img{margin-left:auto; margin-right:auto;}
+.introNavigation > input {}
+​*/
+.introNavigation {margin:0 auto;text-align:center;}/* PlatContent jsps*/
+.topInstructions ol {padding-left: 40px; margin: 10px;}
+.topInstructions h1 {font-size: 16px; }
+.topInstructions ul {padding-left: 40px; list-style: circle outside none; margin: 10px;}
+.topInstructions {padding: 15px;}
+.topInstructions img {padding: 10px;}
+/* end custom instruction/PlatformContent styles */
+
+/* home page styles */
+table.assessmentTasks td.whatYouNeed {text-align:center;}
+/* end home page styles */
+
+/* form styles */
+input.error { border: 1px dotted red; }
+input.ui-button {padding: 0.45em 1.2em 0.5em 1.2em;margin-top:1px;}
+label.error { color: red;}
+/* end form styles */
+
+/* button styles */
+/* hacks for targeting Firefox */
+@-moz-document url-prefix() {
+	input.ui-button {padding: 0.2em 1em 0.4em 1em;}/* fixes vertical padding for jQueryUI buttons */
+}
+/* hacks for targeting IE */
+/*
+<selector> {*<property>:<value>} <-- targets only IE7
+<selector> {<property>:<value>\9} <-- targets only IE8 and below
+*/
+input.ui-button {padding: 0.3em 1em 0.4em 1em\9;}
+/* end button styles */
+
+span.requiredSymbol {color:red;font-weight:bold;}
+
+/* styling to hide elements from the visual display, which are only accessible to screen readers. */
+.visuallyHidden
+{position:absolute;
+ left:-10000px;
+ top:auto;
+ width:1px;
+ height:1px;
+ overflow:hidden
